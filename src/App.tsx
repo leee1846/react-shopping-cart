@@ -29,6 +29,15 @@ const App = () => {
   );
   console.log(data);
 
+  const getTotalItems = () => null;
+
+  const handleAddToCart = () => null;
+
+  const handleRemoveFromCart = () => null;
+
+  if (isLoading) return <LinearProgress />;
+  if (error) return <div>Something went wrong!!</div>;
+
   return (
     <div>
       <h1>ss</h1>
